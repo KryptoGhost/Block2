@@ -171,7 +171,7 @@ footer {
     }
 
     .intro h1 {
-        font-size: 3rem;
+        font-size: 2.7rem;
     }
 
     .bodyy{
@@ -219,6 +219,10 @@ footer {
         text-align: center;
         padding: 0;
         margin: 0
+    }
+
+    .intro h1 {
+        font-size: 2.7rem;
     }
 
     .main{
