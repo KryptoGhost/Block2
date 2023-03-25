@@ -72,7 +72,7 @@ a {
 
 .main {
     box-sizing: border-box;
-    width: 50%;
+    width: 60%;
 }
 
 .intro h1 {
@@ -162,6 +162,7 @@ footer {
     width: 100%;
     height: 100%;
     color:aliceblue;
+    background-image: url(./img/backgroundspace.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     text-align: center;
@@ -175,9 +176,15 @@ footer {
 
     .bodyy{
         display: unset;
+        width: 100%;
     }
     .main{
         width: 100%;
+        margin: auto;
+    }
+
+    h2 {
+        font-size: 1.1rem;
     }
 
     .explore {
@@ -197,5 +204,29 @@ footer {
         height: 100px;
         display: block;
         margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    body {
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+        color:aliceblue;
+        background-image: url(./img/backgroundspace.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        text-align: center;
+        padding: 0;
+        margin: 0
+    }
+
+    .main{
+        width: 100%;
+        margin: auto;
+    }
+
+    h2 {
+        font-size: 1.1rem;
     }
 }
