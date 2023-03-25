@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: border-box;
+    width: 100%;
+    color:aliceblue;
+    background-image: url("./img/backgroundspace.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+.section {
+    box-sizing: border-box;
+    width: 95%;
+    height:100%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.header {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.logo {
+    width: 70px;
+    border-radius: 8px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.nav li {
+    padding: 10px 20px;
+}
+
+.nav li:hover {
+    font-size: 1.25rem;
+    border-bottom: 1px solid white;
+}
+
+a {
+    text-decoration: none;
+    color:white ;
+}
+
+.bodyy {
+    display:flex;
+    justify-content: space-between;
+}
+
+.main {
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.intro h1 {
+    font-size:4rem;
+    margin: 20px 0;
+}
+
+.welcome {
+    margin: 25px;
+}
+
+.services{
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.serv {
+    width: 100%;
+}
+
+.serv img {
+    width: 200px;
+    height: 200px;
+}
+
+.blog{
+    margin: 50px;
+}
+
+.explore {
+    background-color: white;
+    color: black;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.explore:hover {
+    font-size: 1.1rem;
+    color: aqua;
+}
+
+.explore h1 {
+    padding-top:  15px;
+}
+
+.disappear{
+    display: none;
+}
+
+.show-disappear{
+    height: 100px;
+    display: block;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    background-color: black;
+    padding: 40px;
+}
+
+.footer {
+    margin: 10px;
+    font-size: 1.3rem;
+}
+
+.footer a {
+    margin: 20px;
+}
+
+.footer a:hover {
+    font-size: 1.5rem;
+    color: aquamarine;
+}
+
+
+@media screen and (max-width: 500px){
+    body {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    color:aliceblue;
+    background-size:cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 0;
+    margin: 0
+    }
+
+    .intro h1 {
+        font-size: 3rem;
+    }
+
+    .bodyy{
+        display: unset;
+    }
+    .main{
+        width: 100%;
+    }
+
+    .explore {
+        width: 110px;
+        height: 110px;
+        font-size: 0.7.5rem;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .explore:hover {
+        font-size: 0.9rem;
+    }
+
+    .show-disappear{
+        height: 100px;
+        display: block;
+        margin-bottom: 50px;
+    }
+}
